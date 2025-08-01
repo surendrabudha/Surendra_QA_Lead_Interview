@@ -1,0 +1,19 @@
+{
+    "name": "activity-ranking-tests",
+    "version": "1.0.0",
+    "description": "Automated tests for Activity Ranking API feature",
+    "main": "index.js",
+    "scripts": {
+      "test": "cucumber-js --require-module ts-node/register --require ./tests/step-definitions/**/*.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@cucumber/cucumber": "^10.x.x",
+      "@playwright/test": "^1.x.x",
+      "ts-node": "^10.x.x",
+      "typescript": "^5.x.x",
+      "axios": "^1.x.x"
+    }
+  }
